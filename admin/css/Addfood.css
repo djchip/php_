@@ -1,0 +1,32 @@
+main .right .content_basic{
+    border-radius: 10px 10px;
+    background-color: #ccc;
+    box-shadow: 5px 5px 25px gray;
+    font-size: 1.2rem;
+    padding: 30px;
+}
+main .right .content_basic>p{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+.end p{
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 10px 10px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 25px gray
+}
+.end p:last-child{
+    background-color: green;
+}
+.end p a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

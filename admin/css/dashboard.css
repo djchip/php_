@@ -1,0 +1,281 @@
+html {
+	font-size: 100%;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 25px gray;
+	font-size: 1.2rem;
+}
+.header i {
+	font-size: 1.2rem;
+}
+.header .left {
+	margin-left: 40px;
+}
+.header .left span {
+	margin-right: 100px;
+}
+.header .right {
+	display: flex;
+	margin-right: 40px;
+}
+.header .right .myForm {
+	position: relative;
+}
+.header .right .myForm ul {
+	position: absolute;
+	left: 0;
+	top: 70px;
+	z-index: 1;
+	background-color: rgba(197, 189, 189, 0.7);
+	width: 250px;
+	display: none;
+}
+.header .right .myForm input:focus ~ ul {
+	display: block;
+}
+.header .right .myForm ul li {
+	list-style-type: none;
+}
+.header .right .myForm ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+.header .right span {
+	margin-right: 50px;
+}
+main {
+	display: flex;
+}
+main .left {
+	width: 25%;
+	height: 1400px;
+	background-color: #ff6f0c;
+	color: white;
+	font-size: 1.2rem;
+	position: relative;
+	left: 0;
+	transition: 1s;
+	padding: 20px 0px;
+	padding-right: 40px;
+}
+main .left a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+main .left li {
+	list-style-type: none;
+	padding: 20px;
+	padding-left: 20px;
+	border-radius: 10px 10px;
+}
+main .left li:hover {
+	background-color: #b4500ed0;
+}
+main .left .fa-chevron-down {
+	display: none;
+}
+main .left .sub_pages {
+	margin: 0;
+	padding: 5px;
+}
+main .left .sub_pages li:hover {
+	background-color: orange;
+}
+main .left .sub_pages li ul li:hover {
+	background-color: red;
+}
+main .left .sub_authen {
+	display: none;
+}
+main .left .sub_error {
+	display: none;
+}
+main .left .sub_pages li ul {
+	padding: 5px;
+}
+main .right {
+	width: 100%;
+	margin: 20px 25px;
+	position: relative;
+	left: 0;
+	transition: 1s;
+	padding: 0;
+	font-size: 1.2rem;
+}
+main .right h1 {
+	font-size: 1.8rem;
+}
+main .right > h2 {
+	background-color: #ccc;
+	padding: 15px;
+	border-radius: 10px 10px;
+	margin-bottom: 30px;
+	box-shadow: 5px 5px 25px;
+	font-size: 1.5rem;
+}
+main .right > h2 a {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+main .right .content_area {
+	background-color: #ccc;
+	padding: 30px;
+	border-radius: 10px 10px;
+	box-shadow: 5px 5px 25px;
+}
+main .right .content_area {
+	display: flex;
+	margin-bottom: 30px;
+	font-size: 1rem;
+}
+main .right .content_area img {
+	border-radius: 10px 10px;
+}
+main .right .content_area .text-area {
+	font-size: 1rem;
+	margin-left: 20px;
+	position: relative;
+}
+main .right .content_area .text-area span {
+	margin-right: 20px;
+}
+
+main .right .content_area .text-area .order-right {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	color: rgb(0, 128, 0);
+}
+main .right hr {
+	width: 100%;
+}
+main .right .content_area .text-area .button-order {
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+}
+main .right .content_area .text-area .button-order span {
+	padding: 15px;
+}
+main .right .content_area .text-area .button-order .order-mess {
+	background-color: rgba(255, 255, 0, 0.719);
+	color: black;
+	border-radius: 10px 10px;
+}
+main .right .content_area .text-area .button-order .order-approve {
+	background-color: rgba(255, 0, 0, 0.692);
+	color: white;
+	border-radius: 10px 10px;
+}
+main .right .content_area .text-area .button-order .order-edit {
+	background-color: rgba(0, 0, 255, 0.575);
+	color: white;
+	border-radius: 10px 10px;
+}
+main .right .content_area .text-area .button-order .order-cancel {
+	background-color: rgba(0, 128, 0, 0.678);
+	color: white;
+	border-radius: 10px 10px;
+}
+hr {
+	width: 100%;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 18%;
+	font-size: 10px;
+}
+
+/* ngoc anh code */
+main .right {
+	width: 100%;
+	margin-left: 20px;
+}
+main .right .top {
+	width: 100%;
+	margin-left: 20px;
+	height: 400px;
+}
+main .right .bottom {
+	width: 100%;
+	margin-left: 20px;
+	height: 400px;
+	margin-top: 40px;
+}
+main .right .product {
+	background-color: rgb(214, 211, 211);
+	border-radius: 10px;
+	margin-right: 20px;
+	/* height: 400px; */
+}
+main .right .order {
+	background-color: rgb(214, 211, 211);
+	border-radius: 10px;
+	margin-right: 20px;
+	/* height: 400px; */
+}
+main .right .importation {
+	background-color: rgb(214, 211, 211);
+	border-radius: 10px;
+}
+main .right .user {
+	background-color: rgb(214, 211, 211);
+	border-radius: 10px;
+	margin-right: 20px;
+}
+main .right .comment {
+	background-color: rgb(214, 211, 211);
+	border-radius: 10px;
+}
+/* main .right .bottom{
+    display: flex;
+} */
+hr {
+	width: 100%;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 18%;
+	font-size: 10px;
+}
+.green {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-style: none;
+	margin-right: 8px;
+}
+.green a {
+	color: white;
+}
+.blue a {
+	color: white;
+}
+.red a {
+	color: white;
+}
+.blue {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border-style: none;
+	margin-right: 8px;
+}
+.red {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	border-style: none;
+	margin-right: 8px;
+}

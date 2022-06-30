@@ -1,0 +1,42 @@
+main .right .bang{
+    box-shadow: 5px 5px 25px;
+    border-radius: 10px 10px;
+    background-color: #ccc;
+    padding: 30px;
+    font-size: 25px;
+}
+main .right .bang table{
+    border: 3px solid gray;
+}
+main .right .bang table tr{
+    border: 3px solid gray;
+}
+main .right .bang table tr td{
+    border: 3px solid gray;
+}
+main .right .bang table tr th{
+    border: 3px solid gray;
+}
+.status{
+    padding: 15px;
+    background-color: rgba(0, 128, 0, 0.699);
+    color: white;
+}
+.statusc{
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.671);
+    color: white;
+}
+.statusr{
+    padding: 15px;
+    background-color: rgba(0, 0, 255, 0.589);
+    color: white;
+}
+.action{
+    padding: 15px;
+    background-color: rgba(0, 0, 255, 0.63);
+    color: white;
+}
+a{
+    text-decoration: none;
+}

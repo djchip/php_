@@ -1,0 +1,18 @@
+
+main .right .login{
+    max-width: 600px;
+    margin: auto;
+    background-color: #ccc;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 25px gray;
+    height: 600px;
+    font-size:1.2rem;
+    padding-top:  60px;
+}
+main .right .login p{
+    text-align: left;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
